@@ -4,6 +4,11 @@ Generate a BibLaTeX-compatible `.bib` file from Curran Associates ICLR webtoc PD
 
 WARNING: vibe-coded.
 
+
+## Google sheet with source data
+https://docs.google.com/spreadsheets/d/14OCkaPHu9YWjtZ2hOko6WHXUljtnCVF6YujCbRtaUtU/edit?usp=sharing 
+
+
 ## What it does
 
 - Parses ICLR webtoc PDFs (old/new formats) and extracts titles, authors, and page ranges.
