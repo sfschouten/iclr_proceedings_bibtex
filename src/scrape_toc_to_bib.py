@@ -260,6 +260,12 @@ def parse_old(pdf_path: str) -> List[TocEntry]:
                     continue
                 if looks_like_page_line(lines[i]) and auth:
                     break
+                if auth and is_mostly_upper(s):
+                    j = i + 1
+                    while j < len(lines) and not lines[j].strip():
+                        j += 1
+                    if j < len(lines) and looks_like_page_line(lines[j]):
+                        break
                 auth.append(s)
                 i += 1
 
