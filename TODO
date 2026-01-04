@@ -1,0 +1,3 @@
+- use hyphenated words for bib entry key gen
+- get titles from openreview as well, instead of from the PDFs
+- unicode errors in bib entry keys?
